@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="abstract.aspx" />
+    <Content Include="AddedPage.aspx" />
     <Content Include="alertbox.aspx" />
     <Content Include="bootimage.aspx" />
     <Content Include="bootsrap.aspx" />
@@ -119,6 +120,13 @@
     </Compile>
     <Compile Include="abstract.aspx.designer.cs">
       <DependentUpon>abstract.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddedPage.aspx.cs">
+      <DependentUpon>AddedPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddedPage.aspx.designer.cs">
+      <DependentUpon>AddedPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="alertbox.aspx.cs">
       <DependentUpon>alertbox.aspx</DependentUpon>
